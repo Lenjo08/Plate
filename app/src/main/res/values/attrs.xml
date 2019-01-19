@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ic_toggle_theme" format="reference"/>
+    <attr name="ic_checkbox" format="reference"/>
+    <attr name="ic_delete" format="reference"/>
+</resources>

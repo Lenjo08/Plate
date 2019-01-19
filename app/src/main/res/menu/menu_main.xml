@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.typicalgeek.plate.MainActivity">
+    <item
+        android:id="@+id/action_toggle_theme"
+        android:orderInCategory="100"
+        android:title="@string/action_toggle_theme"
+        android:icon="?ic_toggle_theme"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="200"
+        android:title="@string/action_refresh"
+        app:showAsAction="never"/>
+</menu>

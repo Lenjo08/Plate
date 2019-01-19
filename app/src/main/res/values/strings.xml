@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Plate</string>
+    <string name="action_toggle_theme">Toggle theme</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="delete_button">Delete button</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="cancel">Cancel</string>
+    <string name="item">item</string>
+    <string name="items">items</string>
+    <string name="plate_item_count">You have %1$d %2$s on your plate</string>
+    <string name="dark_theme">darkTheme</string>
+    <string name="details">Details</string>
+    <string name="edit">Edit</string>
+    <string name="new_task">New Task</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="details_format">%1$s\n%2$s\n%3$s</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="empty_task_error">You must either provide a title or description.</string>
+</resources>

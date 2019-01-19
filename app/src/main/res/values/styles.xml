@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/nunito_extralight</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="ic_toggle_theme">@drawable/ic_toggle_theme_light</item>
+        <item name="ic_checkbox">@drawable/ic_checkbox_light</item>
+        <item name="ic_delete">@drawable/ic_delete_light</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryInverse</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkInverse</item>
+        <item name="colorAccent">@color/colorAccentInverse</item>
+        <item name="android:fontFamily">@font/nunito_extralight</item>
+        <item name="android:navigationBarColor">@color/colorBackgroundInverse</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDarkInverse</item>
+        <item name="android:windowBackground">@color/colorBackgroundInverse</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="ic_toggle_theme">@drawable/ic_toggle_theme_dark</item>
+        <item name="ic_checkbox">@drawable/ic_checkbox_dark</item>
+        <item name="ic_delete">@drawable/ic_delete_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
