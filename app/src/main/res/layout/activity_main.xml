@@ -33,9 +33,10 @@
             android:id="@+id/tvWelcome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:textSize="16sp"
-            android:text="DevFest 2018"/>
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp"/>
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main"/>
